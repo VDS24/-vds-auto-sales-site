@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>VDS Auto Sales | Quality Rebuilt & Used Cars in Campobello, SC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Straight-shooting used-car and rebuilt-title dealership. Hand-picked inventory, zero hidden fees." />
+
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+    :root{--brand:#da0000;--dark:#111;--light:#f7f7f7;--gray:#666;--maxw:1200px;}
+    body{background:var(--light);color:var(--dark);line-height:1.45}
+    header,footer,section{width:100%;padding:1.5rem}
+    .container{max-width:var(--maxw);margin:auto}
+    nav ul{display:flex;gap:1.5rem;list-style:none;font-weight:600}
+    nav a{text-decoration:none;color:inherit}nav a:hover{color:var(--brand)}
+    .btn{background:var(--brand);color:#fff;border:none;padding:.75rem 1.5rem;font-weight:700;cursor:pointer;display:inline-block;text-decoration:none;margin-top:1rem}
+    .btn:hover{opacity:.9}
+    .hero{background:#000 url('images/dealership-hero.jpg') center/cover no-repeat;color:#fff;min-height:380px;display:flex;align-items:center}
+    .hero-inner{background:rgba(0,0,0,.55);padding:2rem;border-radius:6px}
+    .hero h1{font-size:2.8rem;margin-bottom:.5rem}
+    .hero p{font-size:1.2rem}
+    .grid{display:flex;flex-wrap:wrap;gap:2rem}
+    .grid>*{flex:1 1 300px}
+    table{width:100%;border-collapse:collapse;margin-top:1rem}
+    th,td{padding:.75rem;border:1px solid #ddd;text-align:center}
+    th{background:var(--brand);color:#fff}
+    footer{background:#222;color:#ccc;font-size:.875rem;text-align:center}
+    @media(max-width:768px){.hero h1{font-size:2.2rem}.hero{padding:4rem 1.5rem}}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container grid" style="align-items:center">
+    <h2 style="flex:1">VDS Auto Sales</h2>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#inventory">Inventory</a></li>
+        <li><a href="#financing">Financing</a></li>
+        <li><a href="#about">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="container hero-inner">
+    <h1>Honest Deals on Rebuilt &amp; Clean‑Title Cars</h1>
+    <p>Hand‑selected. Fully inspected. Zero hidden fees. Serving Upstate South Carolina &amp; beyond.</p>
+    <a class="btn" href="#inventory">Browse Current Stock</a>
+  </div>
+</section>
+
+<section id="inventory" class="container">
+  <h2>Featured Inventory</h2>
+  <table>
+    <tr><th>COMING SOON – New arrivals being prepped</th></tr>
+  </table>
+  <p style="margin-top:1rem;color:var(--gray);font-size:.9rem">
+    Check back each week or follow our <a href="#" style="color:var(--brand);text-decoration:none;">Facebook page</a> for instant updates.
+  </p>
+</section>
+
+<section id="financing" class="container">
+  <h2>Financing &amp; Payment</h2>
+  <div class="grid">
+    <div><h3>Simple Cash Deals</h3><p>$299 doc fee. No surprise add‑ons.</p></div>
+    <div><h3>Credit‑Union Ready</h3><p>Buyer’s order &amp; title work prepared same‑day so your bank can cut the check without delays.</p></div>
+    <div><h3>Third‑Party Financing</h3><p>Preferred partners: LightStream, CapOne Auto. Pre‑qualify online, bring the approval letter; we handle the rest.</p></div>
+  </div>
+</section>
+
+<section id="about" class="container">
+  <h2>Why Buy From VDS Auto Sales?</h2>
+  <ul style="padding-left:1.2rem;line-height:1.6">
+    <li><strong>Straight answers.</strong> We disclose every Carfax entry, auction sheet, and repair photo—ask to see the binder.</li>
+    <li><strong>Collision‑shop roots.</strong> We rebuild in‑house, so we actually know what was fixed and how.</li>
+    <li><strong>No pressure.</strong> Cars sell themselves when you price them right. Browse at your pace.</li>
+    <li><strong>Out‑of‑state? Easy.</strong> We can arrange shipping or temp tags in all 50 states.</li>
+  </ul>
+</section>
+
+<section id="contact" class="container">
+  <h2>Contact &amp; Hours</h2>
+  <p><strong>Lot / Office:</strong><br>570 N Pacolet Rd,<br>Campobello, SC 29322</p>
+  <p style="margin-top:.5rem"><a href="tel:+14252682641">(425) 268‑2641</a><br><a href="mailto:vds.auto.24@gmail.com">vds.auto.24@gmail.com</a></p>
+  <p style="margin-top:.5rem">Mon‑Fri 9 a.m.–6 p.m. | Sat 10‑3 | Sun Closed</p>
+  <p style="margin-top:1rem;font-size:.9rem;color:var(--gray)">
+    *Rebuilt titles are inspected, branded, and fully transferable in South Carolina. Confirm your state’s DMV requirements before purchase; we’ll help with the paperwork.
+  </p>
+</section>
+
+<footer>
+  © <span id="year"></span> VDS Auto Sales. All rights reserved.
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
